@@ -1,13 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Drawing.Drawing2D;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace FinaCore
 {
@@ -16,6 +11,7 @@ namespace FinaCore
         public LoginWindow()
         {
             InitializeComponent();
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -26,13 +22,9 @@ namespace FinaCore
             roundedPanel(panelPassword, 5);
 
             labelWelcome.BringToFront();
-
-
-
         }
 
-
-
+        
         private void roundedBtn(Button button, int radius)
         {
             //from claude sonnet :D
@@ -57,7 +49,7 @@ namespace FinaCore
 
         }
 
-        private void roundedPanel(Panel panel, int radius)
+        public void roundedPanel(Panel panel, int radius)
         {
             GraphicsPath path = new GraphicsPath();
             path.StartFigure();
@@ -73,6 +65,11 @@ namespace FinaCore
             panel.Region = new Region(path);
         }
 
-        
+
+        private void loginBtn_Click(object sender, EventArgs e)
+        {
+            Form formDashboard = new Dashboard();
+            formDashboard.ShowDialog();
+        }
     }
 }

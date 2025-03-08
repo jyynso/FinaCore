@@ -76,6 +76,7 @@
             this.loginBtn.ForeColor = System.Drawing.Color.White;
             this.loginBtn.Name = "loginBtn";
             this.loginBtn.UseVisualStyleBackColor = false;
+            this.loginBtn.Click += new System.EventHandler(this.loginBtn_Click);
             // 
             // labelUsername
             // 

@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ecwt2\\source\\repos\\FinaCore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{27EDEDBE-6758-42E8-8DD1-69FF36511FBD}|FinaCore.csproj|c:\\users\\ecwt2\\source\\repos\\finacore\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{27EDEDBE-6758-42E8-8DD1-69FF36511FBD}|FinaCore.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{27EDEDBE-6758-42E8-8DD1-69FF36511FBD}|FinaCore.csproj|c:\\users\\ecwt2\\source\\repos\\finacore\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{27EDEDBE-6758-42E8-8DD1-69FF36511FBD}|FinaCore.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27EDEDBE-6758-42E8-8DD1-69FF36511FBD}|FinaCore.csproj|C:\\Users\\ecwt2\\source\\repos\\FinaCore\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27EDEDBE-6758-42E8-8DD1-69FF36511FBD}|FinaCore.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27EDEDBE-6758-42E8-8DD1-69FF36511FBD}|FinaCore.csproj|C:\\Users\\ecwt2\\source\\repos\\FinaCore\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +38,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ecwt2\\source\\repos\\FinaCore\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\ecwt2\\source\\repos\\FinaCore\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T02:57:04.88Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\ecwt2\\source\\repos\\FinaCore\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\ecwt2\\source\\repos\\FinaCore\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAowBsAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T02:57:27.2Z",
+              "WhenOpened": "2025-03-08T05:32:26.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\ecwt2\\source\\repos\\FinaCore\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "C:\\Users\\ecwt2\\source\\repos\\FinaCore\\Dashboard.cs",
+              "RelativeToolTip": "Dashboard.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwB4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T06:11:05.661Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ecwt2\\source\\repos\\FinaCore\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "C:\\Users\\ecwt2\\source\\repos\\FinaCore\\Dashboard.cs [Design]",
+              "RelativeToolTip": "Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T05:21:51.992Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
