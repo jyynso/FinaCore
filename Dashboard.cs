@@ -16,8 +16,12 @@ namespace FinaCore
         private void Dashboard_Load(object sender, EventArgs e)
         {
             roundedPictureBox(pictureBoxLogo, 5);
+
+            LoginWindow.roundedBtn(btnLogout, 11);
+            LoginWindow.roundedBtn(btnSOA, 11);
+            LoginWindow.roundedBtn(btnImportData, 11);
         }
-        private static void roundedPictureBox(PictureBox pictureBox, int radius)
+        public static void roundedPictureBox(PictureBox pictureBox, int radius)
         {
             GraphicsPath path = new GraphicsPath();
             path.StartFigure();

@@ -16,6 +16,7 @@ namespace FinaCore
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            
             roundedBtn(loginBtn, 5);
 
             roundedPanel(panelUsername, 5);
@@ -25,7 +26,7 @@ namespace FinaCore
         }
 
         
-        private void roundedBtn(Button button, int radius)
+        public static void roundedBtn(Button button, int radius)
         {
             //from claude sonnet :D
             //method for rounded corners sa buttons
@@ -70,6 +71,16 @@ namespace FinaCore
         {
             Form formDashboard = new Dashboard();
             formDashboard.ShowDialog();
+        }
+
+        private void textBoxUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelUsername_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

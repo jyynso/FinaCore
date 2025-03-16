@@ -62,6 +62,7 @@
             resources.ApplyResources(this.textBoxUsername, "textBoxUsername");
             this.textBoxUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(96)))), ((int)(((byte)(96)))));
             this.textBoxUsername.Name = "textBoxUsername";
+            this.textBoxUsername.TextChanged += new System.EventHandler(this.textBoxUsername_TextChanged);
             // 
             // labelPassword
             // 
@@ -82,6 +83,7 @@
             // 
             resources.ApplyResources(this.labelUsername, "labelUsername");
             this.labelUsername.Name = "labelUsername";
+            this.labelUsername.Click += new System.EventHandler(this.labelUsername_Click);
             // 
             // pictureBox1
             // 
@@ -114,9 +116,9 @@
             // 
             // LoginWindow
             // 
-            resources.ApplyResources(this, "$this");
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.BackColor = System.Drawing.Color.FloralWhite;
+            resources.ApplyResources(this, "$this");
             this.Controls.Add(this.panelPassword);
             this.Controls.Add(this.panelUsername);
             this.Controls.Add(this.pictureBox1);
@@ -126,6 +128,7 @@
             this.Controls.Add(this.labelWelcome);
             this.Controls.Add(this.panelMenu);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(96)))), ((int)(((byte)(96)))));
+            this.MaximizeBox = false;
             this.Name = "LoginWindow";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
